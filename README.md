@@ -1,6 +1,10 @@
 # Omarchy Breaking Bad Theme
 
-A disciplined Omarchy theme built around the chemistry-lab half of Breaking Bad: teal-black work surfaces, meth yellow text, and a restrained orange signal color. It leans closer to IBM Carbon than novelty merch, with square edges, dense overlays, and terminal-first contrast.
+Heisenberg's lab was the cleanest place in Albuquerque. This is that aesthetic, applied to a desktop.
+
+The surfaces are teal-black — the cook space at 3am. Text in hazmat yellow. Accents in blue meth cyan, the product. Blood for what it costs. Money for what it's worth. The kind of setup you run when you've stopped pretending to be someone else.
+
+The lab is open. Time to cook!
 
 ## Preview
 
