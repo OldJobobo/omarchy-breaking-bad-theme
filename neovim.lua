@@ -43,6 +43,8 @@ return {
             require("aether").setup(opts)
             vim.cmd.colorscheme("aether")
 
+            vim.api.nvim_set_hl(0, "NeoTreeWinSeparator", { fg = "#52ada8", bg = "#022f31" })
+
             -- Enable hot reload
             require("aether.hotreload").setup()
         end,
