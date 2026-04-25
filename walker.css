@@ -1,0 +1,141 @@
+@define-color selected-text #ffe26a;
+@define-color text #ffe26a;
+@define-color base #022f31;
+@define-color panel #031e20;
+@define-color border #2c5b34;
+@define-color accent #52ada8;
+@define-color orange #e8872e;
+@define-color muted #329f85;
+@define-color hover #0b3e40;
+@define-color foreground #ffe26a;
+@define-color background #022f31;
+
+* {
+    all: unset;
+    color: @text;
+    font-size: 15px;
+    line-height: 1;
+}
+
+window,
+#window {
+    background-color: transparent;
+    background-image:
+        radial-gradient(circle at center,
+            rgba(0, 0, 0, 0.62) 0%,
+            rgba(0, 0, 0, 0.30) 44%,
+            rgba(0, 0, 0, 0.0) 70%);
+}
+
+scrollbar {
+    opacity: 0;
+}
+
+window .box-wrapper,
+#box {
+    min-width: 700px;
+    background: @base;
+    border: 1px solid alpha(@border, 0.9);
+    border-top: 2px solid @orange;
+    border-radius: 0;
+    padding: 14px 18px 12px 18px;
+    box-shadow:
+        0 20px 52px rgba(0, 0, 0, 0.72),
+        0 4px 12px rgba(0, 0, 0, 0.45);
+}
+
+window .search-container,
+.search-container {
+    padding: 0 0 10px 0;
+    margin: 0 0 10px 0;
+    border-bottom: 1px solid alpha(@border, 0.7);
+}
+
+box.search-container {
+    padding: 0;
+    margin: 0;
+    min-height: 0;
+}
+
+.input,
+entry,
+#entry entry,
+entry.Input {
+    background: alpha(@panel, 0.8);
+    border: 1px solid alpha(@border, 0.9);
+    border-radius: 0;
+    padding: 8px 10px;
+    color: @foreground;
+}
+
+.input:focus,
+entry:focus,
+#entry entry:focus,
+entry.Input:focus {
+    border-color: @accent;
+}
+
+.input placeholder {
+    color: alpha(@muted, 0.6);
+}
+
+.list,
+list,
+scrolledwindow {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+}
+
+child {
+    padding: 0;
+    margin: 0 0 1px 0;
+    background: transparent;
+}
+
+child .item-box {
+    padding: 5px 8px 5px 8px;
+    border-left: 2px solid transparent;
+    border-radius: 0;
+    background: transparent;
+    transition:
+        background-color 100ms ease,
+        border-color 100ms ease;
+}
+
+child:hover .item-box {
+    background: alpha(@hover, 0.9);
+    border-left-color: alpha(@accent, 0.5);
+}
+
+child:selected .item-box {
+    background: alpha(@accent, 0.15);
+    border-left-color: @accent;
+}
+
+child:selected .item-box * {
+    color: @selected-text;
+}
+
+.item-image {
+    margin-right: 8px;
+}
+
+.item-subtext,
+label.description,
+label.dim-label,
+.description {
+    color: @muted;
+    font-size: 12px;
+}
+
+.keybind-hints,
+.preview {
+    margin-top: 10px;
+    padding: 8px 10px;
+    border: 1px solid alpha(@border, 0.7);
+    border-radius: 0;
+    background: alpha(@panel, 0.6);
+}
