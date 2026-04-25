@@ -60,7 +60,17 @@ Do not use arbitrary pixel values. If a value doesn't land on the 4px grid, ques
 
 ## Typography
 
-Primary UI font: **IBM Plex Sans**
+Primary UI font: **IBM Plex Sans** when available.
+
+Runtime reality: stock Omarchy does not guarantee IBM Plex Sans is installed. Theme surfaces should therefore be designed to hold up with common sans-serif fallbacks and must not depend on Plex-specific metrics to remain usable.
+
+If the user wants the intended typography, install the font the Omarchy way:
+
+```bash
+omarchy-pkg-add ttf-ibm-plex
+```
+
+`ttf-ibm-plex` provides IBM Plex Sans, Mono, and Serif.
 
 - Launcher entry: 14px / 450 weight
 - List item primary label: 14px / 400 weight
@@ -69,7 +79,9 @@ Primary UI font: **IBM Plex Sans**
 - Notification title: 11px / 600 weight, tracked out at 0.03em
 - Keybind chip labels: 11px / 600 weight, 0.03em tracking
 
-IBM Plex Sans is available at `font-family: "IBM Plex Sans"`. Fall back to system monospace or sans-serif where unavailable. Never use decorative fonts — this is a lab, not a brand.
+Preferred stack: `font-family: "IBM Plex Sans", "Liberation Sans", sans-serif`.
+
+IBM Plex Sans is the art-direction target, not a hard dependency. When unavailable, fall back to common system sans-serif fonts without changing spacing, hierarchy, or tone. Never use decorative fonts — this is a lab, not a brand.
 
 ---
 
