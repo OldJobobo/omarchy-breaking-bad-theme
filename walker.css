@@ -40,7 +40,6 @@ scrollbar {
 
 window .box-wrapper,
 #box {
-    min-width: 580px;
     background:
         linear-gradient(180deg, @warm-sheen, transparent 20%),
         linear-gradient(180deg, alpha(@panel, 0.995), alpha(@base, 0.985));
