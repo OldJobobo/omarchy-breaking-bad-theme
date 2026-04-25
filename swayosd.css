@@ -1,5 +1,53 @@
-@define-color background-color #022f31;
-@define-color border-color #2c5b34;
-@define-color label #ffe26a;
-@define-color image #ffe26a;
-@define-color progress #f8c120;
+* {
+    all: unset;
+}
+
+window {
+    background: transparent;
+}
+
+box {
+    background:
+        radial-gradient(circle at top center, rgba(82, 173, 168, 0.10), transparent 52%),
+        linear-gradient(180deg, rgba(3, 30, 32, 0.995), rgba(2, 47, 49, 0.985));
+    border: 1px solid rgba(82, 173, 168, 0.56);
+    border-radius: 0;
+    padding: 20px;
+    box-shadow:
+        inset 0 1px rgba(255, 226, 106, 0.03),
+        0 16px 36px rgba(0, 0, 0, 0.72),
+        0 3px 8px rgba(0, 0, 0, 0.22);
+    min-width: 280px;
+}
+
+image {
+    color: #ffe26a;
+    -gtk-icon-size: 22px;
+}
+
+label {
+    color: #ffe26a;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    margin-left: 14px;
+}
+
+progressbar {
+    min-height: 8px;
+    border-radius: 0;
+}
+
+progressbar trough {
+    background: linear-gradient(180deg, rgba(44, 91, 52, 0.50), rgba(1, 29, 31, 0.88));
+    border: 1px solid rgba(82, 173, 168, 0.28);
+    border-radius: 0;
+    min-height: 8px;
+}
+
+progressbar progress {
+    background: linear-gradient(90deg, #329f85 0%, #52ada8 52%, #f8c120 82%);
+    border-radius: 0;
+    min-height: 8px;
+}

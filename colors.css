@@ -26,7 +26,7 @@
   @define-color background #022f31;
   @define-color foreground #ffe26a;
   @define-color accent #52ada8;
-  @define-color selection_bg #ffe26a;
+  @define-color selection_bg #52ada8;
   @define-color selection_fg #022f31;
   @define-color cursor #ffe26a;
 

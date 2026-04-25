@@ -34,9 +34,9 @@ return {
                 -- blue: Functions, keywords, directories, links, info diagnostics
                 blue = "#52ada8",
                 -- purple: Storage keywords, special keywords, identifiers, namespaces
-                purple = "#e8872e",
+                purple = "#52ada8",
                 -- magenta: Function declarations, exception handling, tags
-                magenta = "#e8872e",
+                magenta = "#329f85",
             },
         },
         config = function(_, opts)

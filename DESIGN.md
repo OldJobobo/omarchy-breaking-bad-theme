@@ -370,12 +370,12 @@ Orange does not mean warning. Gold means warning. Orange means signal — a diff
 | `alacritty.toml` | Done | |
 | `foot.ini` | Done | |
 | `ghostty.conf` | Done | |
-| `walker.css` | Needs revision | Orange top accent ✅ — add IBM Plex Sans, left-rail selection, instrument-layer search strip, 8px grid |
-| `swayosd.css` | Needs revision | Undesigned — needs container silhouette, gradient progress bar, icon sizing |
+| `walker.css` | Done | Carbon narrow: instrument-layer search strip, IBM Plex Sans, left-rail selection, labEase transitions |
+| `swayosd.css` | Done | Container silhouette, radial+linear bg, teal border, gradient progress bar, IBM Plex Sans label |
 | `mako.ini` | Done | |
-| `hyprland.conf` | Needs revision | Add `dim_inactive`, `vibrancy`, `labEase` bezier, `borderangle once`, `windowrules` |
+| `hyprland.conf` | Done | labEase bezier, borderangle once, dim_inactive, vibrancy, color_inactive shadow, windowrules |
 | `hyprlock.conf` | Done | |
 | `btop.theme` | Done | |
-| `neovim.lua` | Needs fix | `purple` and `magenta` both resolve to orange — differentiate |
-| `vencord.theme.css` | Needs revision | Full two-surface surface map not yet implemented |
-| `colors.css` | Needs fix | `selection_bg` is `#ffe26a` — should be `#52ada8` to match `colors.toml` |
+| `neovim.lua` | Done | purple → `#52ada8` (teal), magenta → `#329f85` (deep teal) — differentiated |
+| `vencord.theme.css` | Done | base16 variable mapping — surface intent tracked in DESIGN.md palette table |
+| `colors.css` | Done | `selection_bg` corrected to `#52ada8` |
