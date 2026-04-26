@@ -29,14 +29,14 @@ omarchy-theme-install https://github.com/oldjobobo/omarchy-breaking-bad-theme
 
 <table>
   <tr>
-    <td><img src="backgrounds/01-synthesis.jpg" width="220" alt="Synthesis wallpaper"><br><sub>01 Synthesis</sub></td>
-    <td><img src="backgrounds/02-empire.jpg" width="220" alt="Empire wallpaper"><br><sub>02 Empire</sub></td>
-    <td><img src="backgrounds/03-heisenberg.jpg" width="220" alt="Heisenberg wallpaper"><br><sub>03 Heisenberg</sub></td>
+    <td><img src="backgrounds/01-synthesis.jpg" width="220" alt="Synthesis wallpaper"></td>
+    <td><img src="backgrounds/02-empire.jpg" width="220" alt="Empire wallpaper"></td>
+    <td><img src="backgrounds/03-heisenberg.jpg" width="220" alt="Heisenberg wallpaper"></td>
   </tr>
   <tr>
-    <td><img src="backgrounds/04-partners.jpg" width="220" alt="Partners wallpaper"><br><sub>04 Partners</sub></td>
-    <td><img src="backgrounds/05-say-my-name.jpg" width="220" alt="Say My Name wallpaper"><br><sub>05 Say My Name</sub></td>
-    <td><img src="backgrounds/06-the-one-who-knocks.jpg" width="220" alt="The One Who Knocks wallpaper"><br><sub>06 The One Who Knocks</sub></td>
+    <td><img src="backgrounds/04-partners.jpg" width="220" alt="Partners wallpaper"></td>
+    <td><img src="backgrounds/05-say-my-name.jpg" width="220" alt="Say My Name wallpaper"></td>
+    <td><img src="backgrounds/06-the-one-who-knocks.jpg" width="220" alt="The One Who Knocks wallpaper"></td>
   </tr>
 </table>
 
@@ -47,4 +47,3 @@ omarchy-theme-install https://github.com/oldjobobo/omarchy-breaking-bad-theme
 ## Notes
 
 - The Vencord theme imports Midnight Discord from `https://refact0r.github.io/midnight-discord/build/midnight.css` at runtime.
-
