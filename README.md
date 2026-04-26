@@ -43,9 +43,8 @@ omarchy-theme-install https://github.com/oldjobobo/omarchy-breaking-bad-theme
 ## Requirements
 
 - For the intended typography, install IBM Plex with `omarchy-pkg-add ttf-ibm-plex`. The theme still works with sane sans-serif fallbacks if you skip it.
-- For the exact icon treatment, install `yaru-icon-theme` with `omarchy-pkg-add yaru-icon-theme`. This theme targets the `Yaru-wartybrown` variant.
 
 ## Notes
 
-- The Vencord theme imports Midnight Discord from `https://refact0r.github.io/midnight-discord/build/midnight.css` at runtime instead of vendoring a local copy.
-- This repo does not currently ship a dedicated desktop screenshot; the preview above uses one of the bundled wallpapers.
+- The Vencord theme imports Midnight Discord from `https://refact0r.github.io/midnight-discord/build/midnight.css` at runtime.
+
