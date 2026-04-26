@@ -12,7 +12,7 @@ The lab is open. Time to cook!
 
 ## Install
 
-Use the Omarchy theme installer:q
+Use the Omarchy theme installer:
 
 ```bash
 omarchy-theme-install https://github.com/oldjobobo/omarchy-breaking-bad-theme
