@@ -21,11 +21,11 @@ white   = "#ffe26a"
 [colors.bright]
 black   = "#2c5b34"
 red     = "#ff6262"
-green   = "#2f8652"
-yellow  = "#f8c120"
-blue    = "#52ada8"
-magenta = "#e8872e"
-cyan    = "#329f85"
+green   = "#3db870"
+yellow  = "#ffd44a"
+blue    = "#63c8c2"
+magenta = "#f5a050"
+cyan    = "#3ec49e"
 white   = "#fff384"
 
 [colors.cursor]

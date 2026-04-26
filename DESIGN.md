@@ -367,7 +367,7 @@ Orange does not mean warning. Gold means warning. Orange means signal — a diff
 6. **`dim_inactive = true`** — inactive windows recede; only the active window is lit
 7. **No looping border animations** — `borderangle once`, not `loop`; one sweep, not a pinwheel
 8. **Progress bar fills teal → gold** — temperature rises through the lab's own color spectrum
-9. **Bright ANSI colors must differ from their normal counterparts** — bold text needs a visible lift (see issues)
+9. **Bright ANSI colors must differ from their normal counterparts** — bold text gets a visible lift: green→`#3db870`, gold→`#ffd44a`, teal→`#63c8c2`, orange→`#f5a050`, deep teal→`#3ec49e`
 
 ---
 
@@ -375,7 +375,7 @@ Orange does not mean warning. Gold means warning. Orange means signal — a diff
 
 | File | Status | Notes |
 |------|--------|-------|
-| `colors.toml` | Done | Canonical palette source — bright colors need differentiation |
+| `colors.toml` | Done | Canonical palette source |
 | `gtk.css` | Done | |
 | `aether.override.css` | Done | |
 | `kitty.conf` | Done | |
@@ -390,4 +390,5 @@ Orange does not mean warning. Gold means warning. Orange means signal — a diff
 | `btop.theme` | Done | |
 | `neovim.lua` | Done | purple → `#52ada8` (teal), magenta → `#329f85` (deep teal) — differentiated |
 | `vencord.theme.css` | Done | base16 variable mapping — surface intent tracked in DESIGN.md palette table |
+| `swaync.style.css` | Done | Zero radius throughout; Carbon left-rail urgency (orange/red/forest by level); square close button and action buttons |
 | `colors.css` | Done | `selection_bg` corrected to `#52ada8` |

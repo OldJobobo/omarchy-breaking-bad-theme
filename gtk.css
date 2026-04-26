@@ -17,11 +17,11 @@
 @define-color white #ffe26a;
 @define-color bright_black #2c5b34;
 @define-color bright_red #ff6262;
-@define-color bright_green #2f8652;
-@define-color bright_yellow #f8c120;
-@define-color bright_blue #52ada8;
-@define-color bright_magenta #e8872e;
-@define-color bright_cyan #329f85;
+@define-color bright_green #3db870;
+@define-color bright_yellow #ffd44a;
+@define-color bright_blue #63c8c2;
+@define-color bright_magenta #f5a050;
+@define-color bright_cyan #3ec49e;
 @define-color bright_white #fff384;
 
 /* Adwaita Color Overrides */
