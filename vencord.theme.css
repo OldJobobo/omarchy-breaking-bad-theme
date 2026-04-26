@@ -544,6 +544,46 @@ a[data-list-item-id^="channels___"][class*="modeUnread"] svg path,
     border: 1px solid rgba(82, 173, 168, 0.28);
 }
 
+/* Reactions detail modal — current Discord structure */
+.container__8a031 {
+    background: var(--bg-2) !important;
+    border: 1px solid var(--border) !important;
+    box-shadow:
+        inset 0 0 0 1px rgba(0, 0, 0, 0.12),
+        0 16px 32px rgba(0, 0, 0, 0.72) !important;
+}
+
+.container__8a031 .header__8a031,
+.container__8a031 .section__8a031,
+.container__8a031 .container_b7f4b4,
+.container__8a031 .scroller_b7f4b4,
+.container__8a031 .reactorsContainer_b7f4b4,
+.container__8a031 .reactors_b7f4b4,
+.container__8a031 .content_d125d2 {
+    background: var(--bg-2) !important;
+    background-color: var(--bg-2) !important;
+    background-image: none !important;
+}
+
+.container__8a031 .header__8a031,
+.container__8a031 .section__8a031 {
+    border-bottom: 1px solid var(--border) !important;
+}
+
+.container__8a031 .scroller_b7f4b4 {
+    border-right: 1px solid var(--border) !important;
+}
+
+.container__8a031 .reactionSelected_b7f4b4 {
+    background: var(--active) !important;
+    color: var(--bb-fg) !important;
+    box-shadow: inset 3px 0 0 var(--bb-teal) !important;
+}
+
+.container__8a031 .reactorClickable_b7f4b4:hover {
+    background: var(--hover) !important;
+}
+
 /* Tooltips */
 :is(
     [class*="tooltip"],
