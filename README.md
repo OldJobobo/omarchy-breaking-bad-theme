@@ -8,11 +8,11 @@ The lab is open. Time to cook!
 
 ## Preview
 
-![Breaking Bad wallpaper preview](backgrounds/7KPd8Gs-breaking-bad-wallpaper_LE_upscale_prime.jpg)
+![Breaking Bad wallpaper preview](./preview.png)
 
 ## Install
 
-Use the Omarchy theme installer:
+Use the Omarchy theme installer:q
 
 ```bash
 omarchy-theme-install https://github.com/oldjobobo/omarchy-breaking-bad-theme
@@ -29,14 +29,14 @@ omarchy-theme-install https://github.com/oldjobobo/omarchy-breaking-bad-theme
 
 <table>
   <tr>
-    <td><img src="backgrounds/7KPd8Gs-breaking-bad-wallpaper_LE_upscale_prime.jpg" width="220" alt="Breaking Bad wallpaper 1"></td>
-    <td><img src="backgrounds/kkQiWwV-breaking-bad-wallpaper_LE_upscale_prime.jpg" width="220" alt="Breaking Bad wallpaper 2"></td>
-    <td><img src="backgrounds/wallhaven-42y98x_LE_upscale_gentle.jpg" width="220" alt="Breaking Bad wallpaper 3"></td>
+    <td><img src="backgrounds/01-synthesis.jpg" width="220" alt="Synthesis wallpaper"><br><sub>01 Synthesis</sub></td>
+    <td><img src="backgrounds/02-empire.jpg" width="220" alt="Empire wallpaper"><br><sub>02 Empire</sub></td>
+    <td><img src="backgrounds/03-heisenberg.jpg" width="220" alt="Heisenberg wallpaper"><br><sub>03 Heisenberg</sub></td>
   </tr>
   <tr>
-    <td><img src="backgrounds/wp1932790-walter-white-wallpapers_LE_upscale_prime.jpg" width="220" alt="Breaking Bad wallpaper 4"></td>
-    <td><img src="backgrounds/wp6794247-breaking-bad-4k-wallpapers_LE_upscale_prime.jpg" width="220" alt="Breaking Bad wallpaper 5"></td>
-    <td><img src="backgrounds/wp6794275-breaking-bad-4k-wallpapers_LE_upscale_prime.jpg" width="220" alt="Breaking Bad wallpaper 6"></td>
+    <td><img src="backgrounds/04-partners.jpg" width="220" alt="Partners wallpaper"><br><sub>04 Partners</sub></td>
+    <td><img src="backgrounds/05-say-my-name.jpg" width="220" alt="Say My Name wallpaper"><br><sub>05 Say My Name</sub></td>
+    <td><img src="backgrounds/06-the-one-who-knocks.jpg" width="220" alt="The One Who Knocks wallpaper"><br><sub>06 The One Who Knocks</sub></td>
   </tr>
 </table>
 
