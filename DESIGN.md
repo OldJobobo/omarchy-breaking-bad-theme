@@ -258,7 +258,6 @@ enabled      = true
 range        = 20
 render_power = 3
 offset       = 2 4
-ignore_window = true
 color          = rgba(00000099)
 color_inactive = rgba(0000004d)
 ```
