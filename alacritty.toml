@@ -25,6 +25,9 @@
 # By OldJobobo (https://github.com/OldJobobo)
 # 
 
+[window]
+opacity = 0.985
+blur = true
 
 [colors]
 [colors.primary]

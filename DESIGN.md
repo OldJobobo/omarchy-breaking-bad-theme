@@ -67,7 +67,7 @@ Runtime reality: stock Omarchy does not guarantee IBM Plex Sans is installed. Th
 If the user wants the intended typography, install the font the Omarchy way:
 
 ```bash
-omarchy-pkg-add ttf-ibm-plex
+omarchy pkg add ttf-ibm-plex
 ```
 
 `ttf-ibm-plex` provides IBM Plex Sans, Mono, and Serif.
@@ -108,13 +108,18 @@ Border angle animation: `once` only — a single teal sweep on focus. Not a loop
 
 ### Terminal / Windows
 
-The baseline. Full opacity, no blur visible through window surface. The lab floor has no atmosphere — it is what it is.
+The baseline remains nearly solid, with just enough compositor depth to catch the lab atmosphere without compromising text contrast.
 
 - bg: `#022f31`
 - fg: `#ffe26a`
-- No opacity setting in terminal configs — opaque by design
+- opacity: `0.985` across Foot, Kitty, Alacritty, and Ghostty
+- blur: enabled consistently where each terminal supports it
 
-If translucency is wanted in a later revision, add `alpha=0.88` to foot, `background_opacity 0.88` to kitty, `opacity = 0.88` to alacritty `[window]`, and `background-opacity = 0.88` to ghostty. All four must agree.
+All four terminal configs agree. The effect should read as material depth, not visible glass.
+
+### Omarchy Shell (Quattro)
+
+The Quattro shell carries the Carbon system natively: instrument-dark bar and tooltips, elevated panel surfaces, compact 8px-grid spacing, and teal left-rail selection for controls, launcher rows, and menu rows. Major panels use restrained teal borders; orange remains scarce and marks notifications plus the sealed lock state. Overlay scrims use the deepest lab void so the six cinematic wallpapers remain legible behind operational surfaces.
 
 ### Walker (App Launcher)
 
@@ -359,7 +364,7 @@ Orange does not mean warning. Gold means warning. Orange means signal — a diff
 ## Rules This Deliberately Enforces
 
 1. **0px border-radius everywhere, no exceptions** — the lab does not use soft corners
-2. **Orange appears in exactly three places**: walker top accent, mako border, hyprlock outer ring — and nowhere else
+2. **Orange appears in exactly three roles**: launcher/Walker synthesis accent, notification border, lock sealed-state border — and nowhere else
 3. **IBM Plex Sans for all typed UI surfaces** — the Carbon font in the chemistry lab
 4. **8px spacing grid throughout** — utility is measurable
 5. **Left-rail selection indicator in Walker** — the Carbon list selection pattern, not a box fill
@@ -374,7 +379,8 @@ Orange does not mean warning. Gold means warning. Orange means signal — a diff
 
 | File | Status | Notes |
 |------|--------|-------|
-| `colors.toml` | Done | Canonical palette source |
+| `colors.toml` | Done | Canonical Quattro palette source |
+| `shell.toml` | Done | Carbon layers, compact 8px grid, teal left-rail states, signal-orange notifications/lock |
 | `gtk.css` | Done | |
 | `aether.override.css` | Done | |
 | `kitty.conf` | Done | |

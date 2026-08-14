@@ -15,7 +15,7 @@ The lab is open. Time to cook!
 Use the Omarchy theme installer:
 
 ```bash
-omarchy-theme-install https://github.com/oldjobobo/omarchy-breaking-bad-theme
+omarchy theme install https://github.com/oldjobobo/omarchy-breaking-bad-theme
 ```
 
 ## What's Included
@@ -42,7 +42,7 @@ omarchy-theme-install https://github.com/oldjobobo/omarchy-breaking-bad-theme
 
 ## Requirements
 
-- For the intended typography, install IBM Plex with `omarchy-pkg-add ttf-ibm-plex`. The theme still works with sane sans-serif fallbacks if you skip it.
+- For the intended typography, install IBM Plex with `omarchy pkg add ttf-ibm-plex`. The theme still works with sane sans-serif fallbacks if you skip it.
 
 ## Notes
 
